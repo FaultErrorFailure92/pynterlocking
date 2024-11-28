@@ -5,11 +5,11 @@ A Non-Safe Interlocking Kernel in Python3
 Pynterlocking is my latest "kitchen-sink" project, where I aim to develop a functioning (albeit non-safe) interlocking kernel in Python 3. The goal is to model all essential infrastructure elements and implement a route-setting logic. Once that is complete, I plan to add a user interface (UI) to bring everything together.  
 
 ## Architecture
-``` to be done in the future
+``` to be done in the future```
 
 
 ## Testing
-``` to be done in the future
+``` to be done in the future```
 
 ## Features  
 
@@ -52,10 +52,10 @@ Future enhancements will focus on improving the kernel's functionality and exten
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/yourusername/pynterlocking.git
-   python ./main.py
+   python ./main.py```
 
 ## Usage example
-``` to be done in the future
+``` to be done in the future```
 
 ## Known Issues
 As it is under development anyway, this part will be done in the future. 
