@@ -1,0 +1,25 @@
+{
+    "stationName": "Musterbahnhof",
+    "tracks": [
+      { "id": "T1", "name": "Gleis 1" },
+      { "id": "T2", "name": "Gleis 2" },
+      { "id": "T3", "name": "Gleis 3" }
+    ],
+    "mainSignals": [
+      { "id": "MS1", "name": "Hauptsignal 1", "track": "T1", "direction": "east" },
+      { "id": "MS2", "name": "Hauptsignal 2", "track": "T2", "direction": "west" }
+    ],
+    "protectionSignals": [
+      { "id": "PS1", "name": "Schutzsignal 1", "track": "T3", "direction": "west" }
+    ],
+    "shuntingSignals": [
+      { "id": "SS1", "name": "Verschubsignal 1", "track": "T2", "direction": "east", "isTrainGoal": true }
+    ],
+    "points": [
+      { "id": "P1", "name": "Weiche 1", "connectedTracks": ["T1", "T2", "T3"], "position": "straight" }
+    ],
+    "levelCrossings": [
+      { "id": "LC1", "name": "Bahnübergang 1", "connectedTracks": ["T1", "T2"], "state": "closed" }
+    ]
+  }
+  

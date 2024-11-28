@@ -1,5 +1,9 @@
-from model import Track, Point, MainSignal, ShuntingSignal, SignalRepeater, LevelCrossing, Route
+"""main.py
+Setup and Use pyinterlocking.
+For now it creates test-elements. Later on it main.py ill hold all the startup methods like introducing the topology and connecting to the user interface.
+"""
 
+from model import Track, Point, MainSignal, ShuntingSignal, SignalRepeater, LevelCrossing, Route
 
 def test_interlocking_system():
     # Create elements
