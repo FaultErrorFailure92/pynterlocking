@@ -1,33 +1,52 @@
-# pynterlocking
-An (non safe) Interlocking Kernel written in python3
+# Pynterlocking  
+A Non-Safe Interlocking Kernel in Python3  
 
-# Why?
-I am currently working on my new kitchen-sink project - a working (but non-safe) interlocking kernel in python3. I want to create all necessary Infrastructure-Elements and a working route-logic. If that is done, I'll try to create a UI
+## Why?  
+Pynterlocking is my latest "kitchen-sink" project, where I aim to develop a functioning (albeit non-safe) interlocking kernel in Python 3. The goal is to model all essential infrastructure elements and implement a route-setting logic. Once that is complete, I plan to add a user interface (UI) to bring everything together.  
 
-# Features
-## Create Elements
-Currently, it is possible to create:
-- Generic Elements
-- Tracks
-- Points
-- Generic Light Signals
-- Main Signals
-- Shunting Signals
-- Distant Signals
-- Protection Signals
-- Signal Repeaters
-- Level Crossings
-- Routes
+## Features  
 
-Each Element has it's unique but basic properties.
+### Infrastructure Elements  
+You can currently create and manage the following infrastructure elements, each with unique but basic properties:  
 
-## Route Setting
-is in Progress:
-- Check if Train, or Shunting Route
-- Search for distinct standard-route or detour-route
+- **Generic Elements**  
+- **Tracks**  
+- **Points**  
+- **Signals**:  
+  - Generic Light Signals  
+  - Main Signals  
+  - Shunting Signals  
+  - Distant Signals  
+  - Protection Signals  
+  - Signal Repeaters  
+- **Level Crossings**  
+- **Routes**  
 
+### Route Setting  
+Route setting logic is under development and includes:  
 
-## Planned
-  - Importer for JSON-Topology
-  - Flank Protection
-  - Route Protection
+- Determining if the route is for a train or shunting movement  
+- Searching for distinct standard routes or alternative detour routes  
+
+### Planned Features  
+Future enhancements will focus on improving the kernel's functionality and extensibility:  
+
+- Importing topology data from JSON files  
+- Implementing flank protection to ensure safe switching and routing  
+- Adding route protection mechanisms  
+
+## Roadmap  
+1. Finalize the core route-setting logic  
+2. Implement JSON topology importer  
+3. Introduce safety features like flank and route protection  
+4. Develop a user-friendly UI  
+
+## Contributing  
+Contributions are welcome! Whether it's suggestions, bug fixes, or feature implementations, feel free to open an issue or submit a pull request.
+
+## License  
+Not licensed yet.
+
+---
+
+Stay tuned as this project evolves! 🚂  
